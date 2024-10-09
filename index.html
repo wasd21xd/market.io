@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>rest</h1>
+<form action="#">
+    <fieldset>
+        <legend>Информация о пользователе</legend>
+    <label for="name">Имя</label>
+    <input id="name" type="text" name="name" placeholder="Введите имя">
+    
+    <label for="lastname">Фамилия</label>
+    <input type="text" name="lastname" placeholder="Введите фамилию">
+
+    <label for="password">Пароль</label>
+    <input type="password" name="password" placeholder="Введите пароль">
+    </fieldset>
+    
+    <fieldset>
+
+        <legend>Выбор пола</legend>
+
+     <label for="male">Мужской</label>
+    <input  id="male" type="radio" name="gender">
+
+    <label for="female">Женский</label>
+    <input id="female" type="radio" name="gender">
+
+    </fieldset>
+    
+   <fieldset>
+    <legend>Выбор продукта</legend>
+
+    <label for="pizza">pizza</label>
+    <input  id="pizza" type="checkbox" name="food" value="pizza">
+
+    <label for="pasta">pasta</label>
+    <input id="pasta" type="checkbox" name="food" value="pasta">
+
+    <label for="rolls">rolls</label>
+    <input id="rolls" type="checkbox" name="food" value="rolls">
+
+   </fieldset>
+
+   <fieldset>
+    <select name="category" >
+        <option value="sell">Скидка</option>
+        <option value="no sell">Нет скидки</option>
+       
+    </select>
+   </fieldset>
+   
+    <button type="button">отправить</button>
+   
+</form>
+</body>
+</html>
